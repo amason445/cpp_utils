@@ -32,12 +32,7 @@ if(file.is_open())
    while(getline(str, word, ',')) row.push_back(word);
 
    content.push_back(row);
-
-
   } 
-
-
-
  }
  
  else cout << "Could not open the file";
@@ -52,8 +47,8 @@ if(file.is_open())
  
  return 0;
 
-
 }
+
 
 
 
